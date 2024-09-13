@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(38, 38, 114);
+}
+h1 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img.auto,
+img.decept {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 195px; /* Align both images vertically */
+}
+
+img.auto {
+    left: 100px; /* Horizontal position for the first image */
+}
+
+img.decept {
+    left: 995px; /* Horizontal position for the second image */
+}
+
+
+iframe {
+    /* display: none; */
+    position: relative;
+    left: 24px;
+}
