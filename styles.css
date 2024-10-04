@@ -21,7 +21,7 @@ img.auto {
 }
 
 img.decept {
-    left: 995px; /* Horizontal position for the second image */
+    left: 999px; /* Horizontal position for the second image */
 }
 
 
@@ -53,4 +53,6 @@ h1.text-containter{
     background-color: rgb(128, 0, 128);
 }
 
-.grid_container{}
+div.video-grid{
+
+}
