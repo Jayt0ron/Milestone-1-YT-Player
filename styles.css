@@ -24,12 +24,31 @@ img.decept {
     left: 999px; /* Horizontal position for the second image */
 }
 
-
+/* IFRAME VIDEOS */
 iframe.FOC {
     /* display: none; */
     position: relative;
     left: 24px;
 }
+
+iframe.TFone {
+    /* display: none; */
+    position: absolute;
+    left: 30px;
+    height: 195px;
+    width: 300px;
+    top: 300px; 
+}
+
+iframe.Bee {
+    /* display: none; */
+    position: absolute;
+    left: 999px;
+    height: 195px;
+    width: 300px;
+    top: 300px; 
+}
+
 body {
     /* margin: top right bottom left */
     margin: 5% 26% 60%;
@@ -53,6 +72,17 @@ h1.text-containter{
     background-color: rgb(128, 0, 128);
 }
 
+button.text-container {
+    /* container for the button */
+    position:fixed ;
+    left: 20px;
+    background-color: red;
+    width: 100px;
+    border-radius: 500px;
+    top:20px
+}
+
+/* GRID */
 div.video-grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Create 3 equal columns */
@@ -60,21 +90,5 @@ div.video-grid{
     padding: 20px;
 }
 
-iframe.TFone {
-    /* display: none; */
-    position: absolute;
-    left: 30px;
-    height: 195px;
-    width: 300px;
-    top: 300px; 
-}
 
-iframe.Bee {
-    /* display: none; */
-    position: absolute;
-    left: 999px;
-    height: 195px;
-    width: 300px;
-    top: 300px; 
-}
 
