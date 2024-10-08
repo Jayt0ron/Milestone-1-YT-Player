@@ -13,7 +13,7 @@ img.decept {
     position: absolute;
     height: 200px;
     width: 200px;
-    top: 195px; /* Align both images vertically */
+    top: 75px; /* Align both images vertically */
 }
 
 img.auto {
@@ -25,7 +25,7 @@ img.decept {
 }
 
 
-iframe {
+iframe.FOC {
     /* display: none; */
     position: relative;
     left: 24px;
@@ -54,5 +54,27 @@ h1.text-containter{
 }
 
 div.video-grid{
-
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create 3 equal columns */
+    gap: 10px; /* Adjust gap between grid items */
+    padding: 20px;
 }
+
+iframe.TFone {
+    /* display: none; */
+    position: absolute;
+    left: 30px;
+    height: 195px;
+    width: 300px;
+    top: 300px; 
+}
+
+iframe.Bee {
+    /* display: none; */
+    position: absolute;
+    left: 999px;
+    height: 195px;
+    width: 300px;
+    top: 300px; 
+}
+
